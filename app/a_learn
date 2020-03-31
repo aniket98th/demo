@@ -1,0 +1,91 @@
+Illuminate\Support\Collection Object
+(
+    [items:protected] => Array
+        (
+            [0] => stdClass Object
+                (
+                    [id] => 1
+                    [name] => D-JBUT-MW-10-M1
+                    [teacher_id] => 1
+                    [subject_module_id] => 15
+                    [start_tm] => 10:00:00
+                    [duration] => 1
+                    [recurrence] => 1010000
+                    [meeting_link] => dummy_meeting_link
+                    [backup_meeting_link] => 
+                    [capacity] => 4
+                    [start_dt] => 2020-02-28
+                    [end_dt] => 2020-06-07
+                    [actual_start_dt] => 
+                    [actual_end_dt] => 
+                    [visibility] => u
+                    [created_at] => 2020-02-27 16:13:48.000
+                    [updated_at] => 2020-02-27 16:13:48.000
+                    [subject_id] => 2
+                    [module_id] => 3
+                    [promo_enabled] => 0
+                    [appointment_enabled] => 0
+                    [enrollment_enabled] => 1
+                    [zoho_pricing_12wk_plan] => 
+                    [zoho_pricing_4wk_plan] => 
+                    [subject] => ELA
+                    [short_name] => JBUT
+                    [first_name] => James
+                    [last_name] => Butt
+                    [work_email] => jbutt@gmail.com
+                    [personal_email] => jbutt@gmail.com
+                    [phone] => 504-621-8927
+                    [timezone] => CST
+                    [compensation_plan_id] => 3
+                    [avatar_img_link] => 
+                    [disabled_dt] => 
+                )
+
+            [1] => stdClass Object
+                (
+                    [id] => 2
+                    [name] => D-JBUT-TT-11-E2
+                    [teacher_id] => 1
+                    [subject_module_id] => 14
+                    [start_tm] => 11:00:00
+                    [duration] => 1
+                    [recurrence] => 0101000
+                    [meeting_link] => dummy_meeting_link
+                    [backup_meeting_link] => 
+                    [capacity] => 4
+                    [start_dt] => 2020-02-28
+                    [end_dt] => 2020-06-07
+                    [actual_start_dt] => 
+                    [actual_end_dt] => 
+                    [visibility] => u
+                    [created_at] => 2020-02-27 16:13:48.000
+                    [updated_at] => 2020-02-27 16:13:48.000
+                    [subject_id] => 2
+                    [module_id] => 2
+                    [promo_enabled] => 0
+                    [appointment_enabled] => 0
+                    [enrollment_enabled] => 1
+                    [zoho_pricing_12wk_plan] => 
+                    [zoho_pricing_4wk_plan] => 
+                    [subject] => ELA
+                    [short_name] => JBUT
+                    [first_name] => James
+                    [last_name] => Butt
+                    [work_email] => jbutt@gmail.com
+                    [personal_email] => jbutt@gmail.com
+                    [phone] => 504-621-8927
+                    [timezone] => CST
+                    [compensation_plan_id] => 3
+                    [avatar_img_link] => 
+                    [disabled_dt] => 
+                )
+
+        )
+
+)
+INSERT INTO site.event_members (event_id,student_id, enroll_dt, disenroll_dt, re_enroll_dt, created_at, updated_at) 
+VALUES(3, 36,'2020-03-10', '2020-03-10', '2020-03-10', '2020-03-10 00:00:00', '2020-02-28 07:56:42');
+
+
+{{{ isset($name) ? $name : 'Default' }}}
+{{{ $name or 'Default' }}}
